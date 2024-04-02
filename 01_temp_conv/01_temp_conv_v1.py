@@ -2,6 +2,11 @@ from tkinter import *
 
 class converter:
     def __init__(self):
+
+        # init
+        button_font = ("Arial", "12", "bold")
+        button_fg = "#FFFFFF"
+
         self.temp_frame = Frame()
         self.temp_frame.grid()
 
@@ -29,10 +34,10 @@ class converter:
         self.button_frame.grid(row=4)
         
         # buttons
-        self.to_celsius_button = Button(self.button_frame, text="To Degrees C",bg="#990099",fg="#FFFFFF")
+        self.to_celsius_button = Button(self.button_frame, text="To Cels",bg="#990099",fg=button_fg,font=button_font)
         self.to_celsius_button.grid(row=0,column=0)
 
-        self.to_farenheit_button = Button(self.button_frame, text="To Degrees F",bg="#009900",fg="#FFFFFF")
+        self.to_farenheit_button = Button(self.button_frame, text="To Fahr",bg="#009900",fg=button_fg,font=button_font)
         self.to_farenheit_button.grid(row=0,column=1)
 
 
