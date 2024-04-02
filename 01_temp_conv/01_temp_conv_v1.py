@@ -5,7 +5,9 @@ class converter:
         self.temp_frame = Frame()
         self.temp_frame.grid()
 
-        self.temp_heading = Label(self.temp_frame, text="Temperature Converter")
+        self.temp_heading = Label(self.temp_frame, 
+                                  text="Temperature Converter",
+                                  font=("Arial","16","bold"))
 
         self.temp_heading.grid(row=0)
 
