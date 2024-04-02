@@ -47,7 +47,7 @@ class converter:
         self.to_history_button = Button(self.button_frame, text="History / Export",bg="#FFA500",fg=button_fg,font=button_font,width=12)
         self.to_history_button.grid(row=1,column=1,padx=5,pady=5)
 
-
+        
 
 
 
