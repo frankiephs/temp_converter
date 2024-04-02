@@ -11,6 +11,13 @@ class converter:
 
         self.temp_heading.grid(row=0)
 
+        instructions = "Please enter the temperature below..."
+        self.temp_instructions = Label(self.temp_frame, text=instructions,wrap=250,width=40,justify="left")
+        self.temp_instructions.grid(row=1)
+
+
+
+
 
 if __name__ == "__main__":
     root = Tk()
