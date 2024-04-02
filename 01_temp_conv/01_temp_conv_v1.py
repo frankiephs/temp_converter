@@ -41,10 +41,10 @@ class converter:
         self.to_farenheit_button.grid(row=0,column=1,padx=5,pady=5)
 
         # other buttons
-        self.to_help_button = Button(self.button_frame, text="Help",bg="#009900",fg=button_fg,font=button_font,width=12)
+        self.to_help_button = Button(self.button_frame, text="Help",bg="#101010",fg=button_fg,font=button_font,width=12)
         self.to_help_button.grid(row=1,column=0,padx=5,pady=5)
 
-        self.to_history_button = Button(self.button_frame, text="History / Export",bg="#009900",fg=button_fg,font=button_font,width=12)
+        self.to_history_button = Button(self.button_frame, text="History / Export",bg="#FFA500",fg=button_fg,font=button_font,width=12)
         self.to_history_button.grid(row=1,column=1,padx=5,pady=5)
 
 
